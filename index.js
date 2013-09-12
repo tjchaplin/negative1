@@ -1,0 +1,1 @@
+module.exports = require("./lib/negative1.js");
