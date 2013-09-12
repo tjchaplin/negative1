@@ -15,7 +15,7 @@ Plus the ability to specify default arguments for a method
 
 This package makes it seemless to always make sure the last paramater to a method is a callback.  In addition, it allows you to set defaults for paramaters that are not provided.
 
-Instead of writing code everytime to check if the last paramater exists/is a function, this plugin allows you to perform those checks using AOP, so you focus on the behavior and not worry about the paramaters passed into you.
+Instead of writing code everytime to check if the last paramater exists/is a function, this plugin allows you to perform those checks using AOP, so you focus on the behavior and not worry about the paramaters passed in.
 
 ## Examples
 
@@ -82,7 +82,7 @@ var negative1 = scarlet.plugins.negative1;
 
 ## What's with the name
 
-To access the last element of an argument array you have to use -1 (*negatieve1*) to access it
+To access the last element of an argument array you have to use -1 ( *negatieve1* ) to access it
 ```
 Array.prototype.slice.call(arguments,-1)
 ```
