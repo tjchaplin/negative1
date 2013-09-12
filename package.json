@@ -1,7 +1,7 @@
 {
   "name": "negative1",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ensure the last parameter to your method is a callback",
   "author": "Tim Chaplin <tim.chaplin@ticktockdevelopment.com>",
   "repository": {
