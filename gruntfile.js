@@ -5,6 +5,7 @@ module.exports = function(grunt){
     jshint: {
       files: ['Gruntfile.js', 'index.js', 'lib/**/*.js','tests/**/*.js'],
       options: {
+        ignores : ['tests/negative1-function.js'],
         globals: {
           console: true,
           module: true
@@ -34,5 +35,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['jshint',"watch"]);
+  grunt.registerTask("default", ["jshint"]);
 };

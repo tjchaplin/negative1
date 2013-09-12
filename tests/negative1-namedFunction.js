@@ -13,7 +13,7 @@ describe('Given using negative1 with a named function',function(){
 			this.methodWith2Args = function methodWith2Args(arg1,arg2){
 				parameter1 = arg1;
 				parameter2 = arg2;
-			}
+			};
 		}
 		
 		var instance = new NamedFunction();

@@ -1,18 +1,6 @@
 // var assert = require('assert');
 // var Scarlet = require('scarlet');
 
-		describe('When method is called with only a callback function',function(){
-			
-			function x(a,b){
-				console.log(Array.prototype.slice.call(arguments,-1));
-			};
-			it("Should call method with callback as last parameter",function(){
-				x(1,2);	
-			});
-
-		});
-
-
 // describe('Given using negative1 with a named function',function(){
 // 	var scarlet = new Scarlet("../lib");
 // 	var negative1 = scarlet.plugins.negative1;
@@ -33,20 +21,20 @@
 // 			parameter2 = null;
 // 		});
 
-		// describe('When method is called with only a callback function',function(){
+// 		describe('When method is called with only a callback function',function(){
 
-		// 	it("Should call method with callback as last parameter",function(){
-		// 		var callback = function(){};
-		// 		methodWith2Args(callback);
-		// 		assert(parameter2 === callback);
-		// 	});
+// 			it("Should call method with callback as last parameter",function(){
+// 				var callback = function(){};
+// 				methodWith2Args(callback);
+// 				assert(parameter2 === callback);
+// 			});
 
-		// 	it("Should call method with default parameter for the first parameter",function(){
-		// 		var callback = function(){};
-		// 		methodWith2Args(callback);
-		// 		assert(parameter1 === 1);
-		// 	});
-		// });
+// 			it("Should call method with default parameter for the first parameter",function(){
+// 				var callback = function(){};
+// 				methodWith2Args(callback);
+// 				assert(parameter1 === 1);
+// 			});
+// 		});
 
 
 // 		describe('When method is called with both parameters',function(){
