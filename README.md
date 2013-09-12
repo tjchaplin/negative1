@@ -5,6 +5,8 @@ negative1
 
 Plus the ability to specify default arguments for a method
 
+[![Build Status](https://travis-ci.org/tjchaplin/negative1.png?branch=master)](https://travis-ci.org/tjchaplin/negative1)
+
 ##Install
 
   `npm install negative1`
